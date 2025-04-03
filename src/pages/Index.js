@@ -23,17 +23,14 @@ const Index = () => (
         </div>
       </header>
       <p>
-        {' '}
-        Welcome to my website. Please feel free to read more{' '}
+        Welcome! This site was created to showcase my work, share my projects, {' '}
+        and document my journey as a software engineer. It includes selected projects, {' '}
+        technical blog posts, and information about my background and interests.{' '}
+        Please feel free to read more{' '}
         <Link to="/about">about me</Link>, or you can check out my{' '}
         <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
         view <Link to="/stats">site statistics</Link>, or{' '}
         <Link to="/contact">contact</Link> me.
-      </p>
-      <p>
-        {' '}
-        Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
       </p>
     </article>
   </Main>
