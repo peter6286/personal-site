@@ -12,9 +12,9 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Shuorong Zhu</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:sz77@illinois.edu">sz77@illinois.edu</a>
         </p>
       </header>
     </section>
@@ -22,13 +22,11 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I&apos;m Shuorong Zhu. I am a{' '}
+        <a href="https://siebelschool.illinois.edu/">UIUC MCS</a> graduate. I currently live in Redwood City, CA, and am a current employee at <a href="https://www.geico.com/tech/">GEICO Tech</a>.
+        Previously, I was an intern at{' '}
+        <a href="https://www.pcitech.com/">PCI Tech</a> as a Data Engineer and{' '}
+        <a href="https://www.jetsweatfitness.com/">JETSWEAT</a> as a Software Engineer.
       </p>
       <ul className="actions">
         <li>
@@ -48,7 +46,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Shuorong Zhu <Link to="/">Shuorong.com</Link>.
       </p>
     </section>
   </section>
