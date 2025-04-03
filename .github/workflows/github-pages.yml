@@ -32,18 +32,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version-file: ".nvmrc"
           cache: "npm"
-      - name: Install
+
+      - name: Install dependencies
         run: npm ci
+
       - name: Build and Render
         shell: bash
         run: |
-          # NOTE: Rendering can be flaky and react-snap is no
-          # longer maintained, so retry until I convert to next.
+          # Retry logic for flaky builds
           function retry {
             local n=1
             local max=5
@@ -64,14 +66,17 @@ jobs:
           retry npm run predeploy
         env:
           NODE_ENV: production
-          # Remove this line if you would like to skip using google analytics
+          # Remove this line if you would like to skip using Google Analytics
           REACT_APP_GA_TRACKING_ID: UA-68649021-1
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: "build"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
