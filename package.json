@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://peter6286/MyWebsite",
+  "homepage": "https://peter6286.github.io/MyWebsite",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/peter6286/MyWebsite.git"
   },
   "engines": {
     "node": ">=16.x"
