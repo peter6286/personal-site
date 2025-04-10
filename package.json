@@ -1,8 +1,7 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://peter6286.github.io/MyWebsite",
-  "license": "MIT",
+  "homepage": "https://peter6286.github.io/personal-site",
   "repository": {
     "type": "git",
     "url": "https://github.com/peter6286/MyWebsite.git"
@@ -11,7 +10,6 @@
     "node": ">=16.x"
   },
   "scripts": {
-  "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
   "build": "react-scripts build",
   "predeploy": "npm run build && react-snap",
   "deploy": "gh-pages -d build",
