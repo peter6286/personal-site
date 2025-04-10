@@ -3,55 +3,34 @@ const data = [
   {
     title: 'Evergreen - Smart Plant Care System',
     subtitle: 'IoT & ML-Based Automation Project',
-    image: 'images/projects/uiuc.jpg',
+    image: '/images/projects/evergreen.png',
     date: '2023-06-01',
+    link: 'https://github.com/peter6286/Evergreen',
     desc:
       'Developed a smart IoT-based plant monitoring system using Raspberry Pi, AWS IoT, MQTT, and TDengine.'
       + ' Integrated a CLIP model trained on Flowers102 for plant classification and automated plant care strategies.'
       + ' Reduced human involvement by 70% and achieved 88% classification accuracy while saving 40% computational resources.',
   },
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Secondhand Goods Wholesale Platform',
+    subtitle: 'Full-Stack web Project @ UIUC',
+    image: '/images/projects/Secondhand.png',
+    date: '2023-12-01',
+    link: 'https://github.com/peter6286/Secondhand_platform',
     desc:
-      'Built for a social impact hackathon.'
-      + ' NearestDollar connected to your bank accounts, credit cards,'
-      + ' or debit cards and rounded up your purchases to donate the balance to'
-      + ' the charity of your choice.',
+      'Led a team to develop a web platform connecting over 1500 UIUC students for trading second-hand goods.'
+      + ' Built robust Node.js APIs, designed responsive ReactJS components, and managed 15GB of MongoDB data.'
+      + ' Deployed on AWS EC2 with Jenkins and implemented secure multi-domain white-label platform support using AWS Certificate Manager, CloudFormation, and CloudWatch.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Speed up DB',
+    subtitle: 'Big Data Processing Optimization',
+    image: '/images/projects/SpeedDB.png',
+    date: '2024-02-01',
+    link: 'https://github.com/peter6286/cs511_Spark',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution'
-      + ' for crops. Harvest was designed to catch irrigation leaks, overwatering,'
-      + ' and nutrient deficiencies at an affordable price for the developing world.',
-  },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras'
-      + ' and gps transponder. Resulting photos were published in a coffee table book.'
-      + ' You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds.'
-      + ' Over 60,000 cats were classified before server bills made the project too expensive'
-      + ' to continue hosting.',
+      'Deployed a scalable HDFS/Spark cluster to improve data processing speed by 16x in-memory and 4x on disk.'
+      + ' Used Docker with multiple containers and leveraged Hadoop and Spark for efficient big data processing.',
   },
 ];
 

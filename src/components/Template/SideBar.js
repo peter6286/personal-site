@@ -26,7 +26,8 @@ const SideBar = () => (
         <a href="https://siebelschool.illinois.edu/">UIUC MCS</a> graduate. I currently live in Redwood City, CA, and am a current employee at <a href="https://www.geico.com/tech/">GEICO Tech</a>.
         Previously, I was an intern at{' '}
         <a href="https://www.pcitech.com/">PCI Tech</a> as a Data Engineer and{' '}
-        <a href="https://www.jetsweatfitness.com/">JETSWEAT</a> as a Software Engineer.
+        <a href="https://www6.slac.stanford.edu/">SLAC National Accelerator Laboratory
+        </a> as a Software Engineer.
       </p>
       <ul className="actions">
         <li>

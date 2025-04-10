@@ -17,13 +17,12 @@ const routes = [
     path: '/projects',
   },
   {
-    label: 'Stats',
-    path: '/stats',
-  },
-  {
     label: 'Contact',
     path: '/contact',
   },
 ];
 
 export default routes;
+
+//  label: 'Stats',
+//  path: '/stats',
