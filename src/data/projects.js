@@ -3,7 +3,7 @@ const data = [
   {
     title: 'Evergreen - Smart Plant Care System',
     subtitle: 'IoT & ML-Based Automation Project',
-    image: '/images/projects/evergreen.png',
+    image: '/images/projects/Evergreen.png',
     date: '2023-06-01',
     link: 'https://github.com/peter6286/Evergreen',
     desc:
